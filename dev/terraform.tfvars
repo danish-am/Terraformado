@@ -1,0 +1,6 @@
+rgname                 = "dev-danishrg"
+service_principal_name = "dev-danish-spn"
+keyvault_name          = "dev-danish-kv-101"
+SUB_ID = "dd0d39bb-8c46-4a75-83e5-cd5f1dd6f45b"
+cluster_name = "dev-danish-cluster"
+node_pool_name = "devnp"
