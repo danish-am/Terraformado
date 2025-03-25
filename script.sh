@@ -1,8 +1,8 @@
 #!/bin/bash
 
 RESOURCE_GROUP_NAME=terraform-state-rg
-STAGE_SA_ACCOUNT=terraformadodanish
-DEV_SA_ACCOUNT=devterraformadodanish
+STAGE_SA_ACCOUNT=tfstagedanish
+DEV_SA_ACCOUNT=tfdevbackdanish
 CONTAINER_NAME=tfstate
 
 
