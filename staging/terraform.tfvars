@@ -1,0 +1,6 @@
+rgname                 = "stage-danish-rg"
+service_principal_name = "stage-danish-spn"
+keyvault_name          = "stage-danish-kv-101"
+SUB_ID = "dd0d39bb-8c46-4a75-83e5-cd5f1dd6f45b"
+node_pool_name = "stagenp"
+cluster_name = "stage-danish-cluster"
