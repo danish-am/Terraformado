@@ -1,15 +1,3 @@
-.
-├── main.tf
-├── variables.tf
-├── terraform.tfvars
-├── outputs.tf
-├── modules/
-│   ├── ServicePrincipal/
-│   ├── keyvault/
-│   └── aks/
-└── images/
-    └── terraform_aks_flow.png
-
 
 # Terraformado
 Automating Infrastructure Provisioning using Azure DevOps
