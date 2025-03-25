@@ -1,12 +1,3 @@
-Perfect — based on your clarifications, here is the **fully updated and corrected `README.md`** for your `Terraformado` repo:
-
-- ✅ Uses **Azure DevOps Classic Editor**
-- ✅ Has `create.yml` and `destroy.yml` pipelines in the root (not in a subfolder)
-- ✅ No `/images` directory
-- ✅ Includes accurate source attribution to **Piyush's GitHub and YouTube**
-
----
-
 ```markdown
 # 🚀 Terraformado
 
