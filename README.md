@@ -142,13 +142,3 @@ This project uses **Classic Editor Pipelines**.
 | `aks`              | Provisions AKS using the SP credentials |
 
 ---
-
-## 🙏 Special Thanks
-
-This project is based on the amazing tutorial series by **Piyush Sachdeva**.
-
-📺 YouTube Series: [AKS + Terraform + Azure DevOps](https://www.youtube.com/watch?v=hj5gbhSmftE&list=PLl4APkPHzsUUHlbhuq9V02n9AMLPySoEQ&t=207s)  
-📂 GitHub Reference: [Piyush's Repo](https://github.com/piyushsachdeva/Terraform-Full-Course-Azure/tree/main/lessons/day26)
-
-> Huge shout-out to **Tech Tutorials With Piyush** for making cloud DevOps fun and easy to learn!
-
