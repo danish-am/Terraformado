@@ -61,6 +61,7 @@ module "aks" {
   resource_group_name    = var.rgname
   cluster_name           = var.cluster_name               # AKS cluster name
   node_pool_name         = var.node_pool_name             # Node pool name
+  ssh_public_key         = file("~/.ssh/id_rsa.pub")  # ✅ read key here at the root level
 
   depends_on = [
     module.ServicePrincipal  # Ensure SP is ready before deploying AKS
@@ -89,5 +90,3 @@ module "sql_database" {
   admin_password   = var.sql_admin_password
   vm_public_ip     = module.ubuntu_vm.private_ip
 }
-
-you haveny used out
