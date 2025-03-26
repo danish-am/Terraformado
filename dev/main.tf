@@ -73,3 +73,21 @@ resource "local_file" "kubeconfig" {
   filename   = "./kubeconfig"              # Path where kubeconfig will be saved
   content    = module.aks.config           # Kubeconfig content from the AKS module output
 }
+# ADDITIONAL INFRASTRUCTURE (VM + SQL DB)
+
+# Deploy an Ubuntu VM
+module "ubuntu_vm" {
+  source           = "../modules/azure_vm"
+  vm_name          = "ubuntu-dev"
+  admin_username   = var.vm_admin_username
+  ssh_public_key   = var.ssh_public_key
+}
+
+# Deploy Azure SQL Database
+module "sql_database" {
+  source           = "../modules/sql_database"
+  admin_password   = var.sql_admin_password
+  vm_public_ip     = module.ubuntu_vm.private_ip
+}
+
+you haveny used out
